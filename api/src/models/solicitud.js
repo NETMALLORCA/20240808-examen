@@ -40,10 +40,13 @@ module.exports = function (sequelize, DataTypes) {
       utm_y: {
         type: DataTypes.DOUBLE
       },
-      places: {
-        type: DataTypes.DECIMAL
+      categoria_gold: {
+        type: DataTypes.STRING
       },
-      unitats: {
+      activitat_secund_ria: {
+        type: DataTypes.STRING
+      },
+      aforament_m_xim: {
         type: DataTypes.DECIMAL
       },
       explotador_s: {

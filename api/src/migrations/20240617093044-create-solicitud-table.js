@@ -43,10 +43,13 @@ module.exports = {
       utm_y: {
         type: Sequelize.DOUBLE
       },
-      places: {
-        type: Sequelize.DECIMAL
+      categoria_gold: {
+        type: Sequelize.STRING
       },
-      unitats: {
+      activitat_secund_ria: {
+        type: Sequelize.STRING
+      },
+      aforament_m_xim: {
         type: Sequelize.DECIMAL
       },
       explotador_s: {
