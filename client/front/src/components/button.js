@@ -23,7 +23,7 @@ class Button extends HTMLElement {
     const button = this.shadow.querySelector('.send-button')
 
     button.addEventListener('click', async () => {
-      let response = await fetch('https://catalegdades.caib.cat/resource/j2yj-e83g.json')
+      let response = await fetch('https://catalegdades.caib.cat/resource/syr2-kez9.json')
       let data = await response.json()
 
       data = data.map(element => {
